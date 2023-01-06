@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: peru;
+    padding: 16px 0;
+    color: antiquewhite;
+}
+
+header .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+header li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-left: 16px;
+}
+
+header li a{
+    color: rgb(12, 10, 8);
+    text-decoration: none;
+}
+
+.container {
+width: 1200px;
+margin: 0 auto;
+}
+
+.articles {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.articles article img {
+  /* height: 180px; */
+  width: 100%; 
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    margin-bottom: 16px 0;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration:none;
+}
+
+.articles article a:hover {
+    text-decoration:underline;
+}
+
+.articles article p, 
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 24px;
+}
+
+section h2 { 
+    font-size: 32px;
+}
+
+#sports {
+    background-color: rgb(0,255,0, 0.1);
+}
+
+#economy {
+    background-color: rgb(231, 153, 124);
+}
+
+/*meu exercicio começa nas proximas linhas*/
+
+header .tecnologico {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.tecnologico {
+    width: 1200px;
+margin: 0 auto;
+}
+
+.tec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tec article img {
+     /* height: 180px; */
+  width: 100%; 
+}
+
+.tec article {
+    width: 30%;
+}
+
+
+ .tec article p, 
+ .tec article a {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tec article a:hover {
+    text-decoration:underline;
+}
+
+section h4 {
+    margin-bottom: 16px 0;
+}
+
+.tec article h4 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.tec article a {
+    background-color: cadetblue;
+    color:black;
+    padding: 8px;
+    display: inline-block;
+    text-decoration:none;
+}
+
+.tec article h4 {
+    font-size: 24px;
+}
+
+section h4 { 
+    font-size: 32px;
+}
+
+#tecnologia {
+    background-color:darkgray;
+}
+ 
+/*segunda parte*/
+
+header .entre {
+    display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.entre {
+    width: 1200px;
+margin: 0 auto;
+}
+
+.entreterimento {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.entreterimento article img {
+    /* height: 180px; */
+ width: 100%; 
+}
+
+.entreterimento article {
+    width: 30%;
+}
+
+.entreterimento article p, 
+.entreterimento article a {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.entreterimento article a:hover {
+    text-decoration:underline;
+}
+
+ section h1 {
+    margin-bottom: 16px 0;
+}
+
+.entreterimento article h1 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.entreterimento article a {
+    background-color: chartreuse;
+    color:rgb(253, 251, 251);
+    padding: 8px;
+    display: inline-block;
+    text-decoration:none;
+}
+
+.entreterimento article h1 {
+    font-size: 24px;
+}
+
+section h1 { 
+    font-size: 32px;
+}
+
+#entreter {
+    background-color:blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
